@@ -21,10 +21,10 @@
 //   m3     m4
 struct motor_throtle_matrix
 {
-    float m1;
-    float m2;
-    float m3;
-    float m4;
+    double m1;
+    double m2;
+    double m3;
+    double m4;
 };
 
 

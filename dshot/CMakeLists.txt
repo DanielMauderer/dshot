@@ -5,3 +5,6 @@ include_directories("${PROJECT_SOURCE_DIR}/dshot/include")
 message(STATUS ${DSHOT_SOURCES})
 
 add_library(dshot ${DSHOT_SOURCES})
+
+idf_component_register(SRCS "esp_motor_control.cpp"
+                    INCLUDE_DIRS ".")
